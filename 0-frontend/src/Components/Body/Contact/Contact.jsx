@@ -57,7 +57,7 @@ const Contact = () => {
                             ]}>
                                 <Input type="text" required placeholder='Name' className='Input' />
                             </Form.Item>
-                            <Form.Item label="Your Email" name="eame" className='Item' rules={[
+                            <Form.Item label="Your Email" name="email" className='Item' rules={[
                                 {
                                     required: true,
                                     message: 'Missing Email',
