@@ -317,8 +317,9 @@ app.post("/api/v1/property-analysis", async (req, res) => {
                 <tr><td>Walls: ${req.body.Bedrooms_Walls}</td></tr>
                 <tr><td>Windows: ${req.body.Bedrooms_Windows}</td></tr>
                 <tr><td>Check ceilings for sloping and/or water damage. Are floors weak in places? Damaged windows or window s→ creens?</td></tr>
-                <tr><td>Notes: ${req.body.BedroomsNote}</td></tr>
-                
+                <tr><td>Notes: ${req.body.BedroomsNote}</td></tr> 
+                <tr><td>describe any specific bedroom condition in detail </td></tr>
+                <tr><td>Notes: ${req.body.BedroomDetails}</td></tr>
                 <tr><td><hr></td></tr>
                 
                 <tr><td><b>Kitchen</b></td></tr>

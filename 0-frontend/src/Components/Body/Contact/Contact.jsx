@@ -180,7 +180,13 @@ const Contact = () => {
                   <GoMail />
                 </div>
                 <div className="contact-info-text">
-                  info@therealestaterocket.com
+                  <a
+                    href="mailto:info@therealestaterocket.com"
+                    className="phone-link"
+                    style={{ color: "black", textDecoration: "none" }}
+                  >
+                    info@therealestaterocket.com
+                  </a>
                 </div>
               </div>
             </div>
