@@ -151,13 +151,29 @@ const Contact = () => {
                 <div className="contact-info-icon">
                   <FiPhoneCall />
                 </div>
-                <div className="contact-info-text">786.250.1110</div>
+                <div className="contact-info-text">
+                  <a
+                    href="tel:+17862501110"
+                    className="phone-link"
+                    style={{ color: "black", textDecoration: "none" }}
+                  >
+                    786.250.1110
+                  </a>
+                </div>
               </div>
               <div className="contact-info-type">
                 <div className="contact-info-icon">
                   <FiPhoneCall />
                 </div>
-                <div className="contact-info-text">786.471.7409</div>
+                <div className="contact-info-text">
+                  <a
+                    href="tel:+17864717409"
+                    className="phone-link"
+                    style={{ color: "black", textDecoration: "none" }}
+                  >
+                    786.471.7409
+                  </a>
+                </div>
               </div>
               <div className="contact-info-type">
                 <div className="contact-info-icon">

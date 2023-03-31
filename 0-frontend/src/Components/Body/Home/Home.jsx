@@ -46,8 +46,16 @@ const Home = () => {
               <div className="top-contact-info">
                 <div className="top-contact-text">CALL/TEXT US NOW</div>
                 <div className="top-contact-numbers">
-                  <div className="top-contact-number">786.250.1110</div>
-                  <div className="top-contact-number">786.471.7409</div>
+                  <div className="top-contact-number">
+                    <a href="tel:+17862501110" className="phone-link">
+                      786.250.1110
+                    </a>
+                  </div>
+                  <div className="top-contact-number">
+                    <a href="tel:+17864717409" className="phone-link">
+                      786.471.7409
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -90,7 +98,22 @@ const Home = () => {
                   <img src={img1} alt="" />
                 </div>
                 <div className="home-sell-step-info">
-                  Call/Text Us at 786.250.1110/ 786.471.7409
+                  Call/Text Us at{" "}
+                  <a
+                    href="tel:+17862501110"
+                    className="phone-link"
+                    style={{ color: "black" }}
+                  >
+                    786.250.1110
+                  </a>
+                  /{" "}
+                  <a
+                    href="tel:+17864717409"
+                    className="phone-link"
+                    style={{ color: "black" }}
+                  >
+                    786.471.7409
+                  </a>
                 </div>
               </motion.div>
             </Col>
@@ -261,9 +284,24 @@ const Home = () => {
               By the way, you're not obligated to sell your home to us if we
               make you an offer, and we don't charge any fees, ever. Our process
               is fast, easy, and won't cost you a thing. So what do you have to
-              lose? Give us a Call/Text at 786.250.1110/ 786.471.7409 or submit
-              your information through our simple form to get a fair cash offer
-              in minutes!
+              lose? Give us a Call/Text at{" "}
+              <a
+                href="tel:+17862501110"
+                className="phone-link"
+                style={{ color: "black" }}
+              >
+                786.250.1110
+              </a>
+              /{" "}
+              <a
+                href="tel:+17864717409"
+                className="phone-link"
+                style={{ color: "black" }}
+              >
+                786.471.7409
+              </a>{" "}
+              or submit your information through our simple form to get a fair
+              cash offer in minutes!
             </p>
           </motion.div>
         </div>

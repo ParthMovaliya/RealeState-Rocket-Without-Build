@@ -67,8 +67,12 @@ const Header = ({ children }) => {
           </div>
           <div className="right-text">
             <div className="rifgt-call-info">CALL/TEXT US NOW</div>
-            <div className="right-call-number">786.250.1110</div>
-            <div className="right-call-number">786.471.7409</div>
+            <a className="right-call-number" href="tel:+17862501110">
+              786.250.1110
+            </a>
+            <a className="right-call-number" href="tel:+17864717409">
+              786.471.7409
+            </a>
           </div>
         </div>
         <div className="footer-menu">

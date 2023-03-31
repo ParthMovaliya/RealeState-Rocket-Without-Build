@@ -21,6 +21,11 @@
   display: inline-block;
 }
 
+.phone-link {
+  color: white;
+  text-decoration: none;
+}
+
 .head-front-left {
   display: flex;
   flex-direction: column;
@@ -107,6 +112,7 @@
   margin: 2rem 0rem;
   text-align: center;
 }
+
 .home-page-link {
   background-color: pink;
 }
@@ -116,17 +122,21 @@
   border-bottom: 5px solid black;
   width: 12vw;
 }
+
 .home-page-button-middle {
   display: flex;
   flex-direction: row;
 }
+
 .home-page-button-left {
   border-left: 5px solid black;
 }
+
 .home-page-button-right {
   border-left: 5px solid black;
   height: 6vw;
 }
+
 .home-page-button-lower {
   border-top: 5px solid black;
   width: 12vw;
@@ -143,7 +153,7 @@
   margin: 0px auto;
 }
 
-.home-sell-step-img > img {
+.home-sell-step-img>img {
   width: 14vw;
   height: 14vw;
   /* aspect-ratio: 1/1; */
@@ -156,6 +166,7 @@
   font-size: 1.5rem;
   text-align: center;
 }
+
 .sell-house-container-button {
   margin: 2rem auto 1rem;
   width: 18rem;
@@ -182,7 +193,7 @@
   margin: 0px auto;
 }
 
-.sell-house-testi-right > img {
+.sell-house-testi-right>img {
   width: 35vw;
   padding-left: 1.5rem;
   object-fit: cover;
@@ -207,15 +218,13 @@
   padding: 10px 3rem 1.9rem;
   font-size: 1.2rem;
   color: white;
-  clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% 75%,
-    75% 75%,
-    75% 100%,
-    70% 75%,
-    0% 75%
-  );
+  clip-path: polygon(0% 0%,
+      100% 0%,
+      100% 75%,
+      75% 75%,
+      75% 100%,
+      70% 75%,
+      0% 75%);
 }
 
 /* ====================================Last Container=============================== */
@@ -231,9 +240,11 @@
   .home-front {
     height: 100vh;
   }
+
   .home-front-container {
     flex-direction: column;
   }
+
   .head-front-left {
     padding-top: 4rem;
     display: flex;
@@ -242,6 +253,7 @@
     gap: 1.5rem;
     margin: 0px auto;
   }
+
   .head-main-title {
     font-size: 1.5rem;
   }
@@ -263,6 +275,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .head-front-right {
     display: flex;
     flex-direction: column;
@@ -270,41 +283,50 @@
     justify-content: space-between;
     align-items: center;
   }
+
   .top-contact-info {
     margin-top: 0.5rem;
     width: 80vw;
   }
+
   .top-container-right-form {
     margin: 1rem 0px;
     padding: 1rem;
     gap: 0rem;
     width: 80vw;
   }
+
   .head-form-title {
     margin: 1rem 0rem;
   }
-  .home-sell-step-img > img {
+
+  .home-sell-step-img>img {
     width: 20vw;
     height: 20vw;
   }
+
   .sell-house-testimonial {
     display: flex;
     flex-direction: column-reverse;
     width: 80vw;
     margin: 0px auto;
   }
+
   .sell-house-testi-right {
     margin: 0px auto;
   }
-  .sell-house-testi-right > img {
+
+  .sell-house-testi-right>img {
     width: 45vw;
     padding-left: 0rem;
     object-fit: cover;
     margin-bottom: 1rem;
   }
+
   .some-reason-container {
     row-gap: 1.5rem;
   }
+
   .reson-type {
     padding: 10px 2rem 1.9rem;
     font-size: 1.1rem;
@@ -313,6 +335,7 @@
 
 /* -----------------------Media Queries(SM)----------------------- */
 @media screen and (max-width: 600px) {
+
   .top-contact-text,
   .top-contact-number {
     display: flex;
@@ -321,23 +344,27 @@
     font-size: 1.2rem;
   }
 
-  .home-sell-step-img > img {
+  .home-sell-step-img>img {
     width: 30vw;
     height: 30vw;
   }
+
   .home-container-title-alternative {
     padding-top: 2rem;
     font-size: 1.8rem;
     margin: 0px auto 1rem;
   }
+
   .some-reason-container {
     row-gap: 1rem;
   }
+
   .reson-type {
     padding: 10px 1rem 1.9rem;
     font-size: 1rem;
   }
-  .sell-house-testi-right > img {
+
+  .sell-house-testi-right>img {
     width: 55vw;
   }
 }
