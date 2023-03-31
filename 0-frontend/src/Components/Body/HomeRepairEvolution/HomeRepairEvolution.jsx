@@ -93,7 +93,7 @@ const HomeRepairEvolution = () => {
                     className="Item"
                     rules={[
                       {
-                        required: false,
+                        required: true,
                         message: "Missing First Name",
                       },
                     ]}
@@ -113,7 +113,7 @@ const HomeRepairEvolution = () => {
                     className="Item"
                     rules={[
                       {
-                        required: false,
+                        required: true,
                         message: "Missing Last Name",
                       },
                     ]}
@@ -133,7 +133,7 @@ const HomeRepairEvolution = () => {
                     className="Item"
                     rules={[
                       {
-                        required: false,
+                        required: true,
                         message: "Missing Phone Number",
                       },
                     ]}
@@ -153,7 +153,7 @@ const HomeRepairEvolution = () => {
                     className="Item"
                     rules={[
                       {
-                        required: false,
+                        required: true,
                         message: "Missing Email Address",
                       },
                     ]}
@@ -173,7 +173,7 @@ const HomeRepairEvolution = () => {
                     className="Item"
                     rules={[
                       {
-                        required: false,
+                        required: true,
                         message: "Missing Street Address",
                       },
                     ]}
@@ -193,7 +193,7 @@ const HomeRepairEvolution = () => {
                     className="Item"
                     rules={[
                       {
-                        required: false,
+                        required: true,
                         message: "Missing City",
                       },
                     ]}
@@ -213,7 +213,7 @@ const HomeRepairEvolution = () => {
                     className="Item"
                     rules={[
                       {
-                        required: false,
+                        required: true,
                         message: "Missing State",
                       },
                     ]}
@@ -233,7 +233,7 @@ const HomeRepairEvolution = () => {
                     className="Item"
                     rules={[
                       {
-                        required: false,
+                        required: true,
                         message: "Missing Zip Code",
                       },
                     ]}
@@ -265,7 +265,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -291,7 +291,7 @@ const HomeRepairEvolution = () => {
                     className="Item"
                     rules={[
                       {
-                        required: false,
+                        required: true,
                         message: "Missing Traffic noise Cheklist!",
                       },
                     ]}
@@ -330,7 +330,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -373,7 +373,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -417,7 +417,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -460,7 +460,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -503,7 +503,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -546,7 +546,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -591,7 +591,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -634,7 +634,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -677,7 +677,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -720,7 +720,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -775,7 +775,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -818,7 +818,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -861,7 +861,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -904,7 +904,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -947,7 +947,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
@@ -990,7 +990,7 @@ const HomeRepairEvolution = () => {
                       key={data.id}
                       rules={[
                         {
-                          required: false,
+                          required: true,
                           message: `Missing ${data.error} Cheklist!`,
                         },
                       ]}
